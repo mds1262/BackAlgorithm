@@ -65,9 +65,7 @@ public class Q_4948 {
 			if(primeArr[i]) {
 				continue;
 			}
-			if(i == 5) {
-				System.out.println(5);
-			}
+
 			for(int j = i + i; j < primeArr.length; j += i) {
 				primeArr[j] = true;
 			}
